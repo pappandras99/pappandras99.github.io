@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Trattoria</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>La Trattoria</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Welcome to La Trattoria</h2>
+            <p>Authentic Italian Cuisine</p>
+            <a href="#menu" class="btn">View Menu</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>La Trattoria is a family-owned restaurant that has been serving authentic Italian dishes for over 20 years. Our recipes have been passed down through generations, ensuring that every bite is a taste of Italy.</p>
+        </div>
+    </section>
+
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2>Our Menu</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <h3>Pasta Carbonara</h3>
+                    <p>Spaghetti with creamy egg sauce, pancetta, and parmesan.</p>
+                    <span>$12.99</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Margherita Pizza</h3>
+                    <p>Tomato sauce, fresh mozzarella, basil, and olive oil.</p>
+                    <span>$10.99</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Tiramisu</h3>
+                    <p>Classic Italian dessert with coffee-soaked ladyfingers and mascarpone cream.</p>
+                    <span>$6.99</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>We'd love to hear from you! Reach out to us for reservations or any questions.</p>
+            <form id="contact-form">
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 La Trattoria. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
